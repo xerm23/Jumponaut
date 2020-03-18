@@ -1,0 +1,594 @@
+fileFormatVersion: 2
+guid: 581d918097e1061468c5f54243d0f9a9
+timeCreated: 1497860880
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AstronautSpritesheet_0
+    21300002: AstronautSpritesheet_1
+    21300004: AstronautSpritesheet_2
+    21300006: AstronautSpritesheet_3
+    21300008: AstronautSpritesheet_4
+    21300010: AstronautSpritesheet_5
+    21300012: AstronautSpritesheet_6
+    21300014: AstronautSpritesheet_7
+    21300016: AstronautSpritesheet_8
+    21300018: AstronautSpritesheet_9
+    21300020: AstronautSpritesheet_10
+    21300022: AstronautSpritesheet_11
+    21300024: AstronautSpritesheet_12
+    21300026: AstronautSpritesheet_13
+    21300028: AstronautSpritesheet_14
+    21300030: AstronautSpritesheet_15
+    21300032: AstronautSpritesheet_16
+    21300034: AstronautSpritesheet_17
+    21300036: AstronautSpritesheet_18
+    21300038: AstronautSpritesheet_19
+    21300040: AstronautSpritesheet_20
+    21300042: AstronautSpritesheet_21
+    21300044: AstronautSpritesheet_22
+    21300046: AstronautSpritesheet_23
+    21300048: AstronautSpritesheet_24
+    21300050: AstronautSpritesheet_25
+    21300052: AstronautSpritesheet_26
+    21300054: AstronautSpritesheet_27
+    21300056: AstronautSpritesheet_28
+    21300058: AstronautSpritesheet_29
+    21300060: AstronautSpritesheet_30
+    21300062: AstronautSpritesheet_31
+    21300064: AstronautSpritesheet_32
+    21300066: AstronautSpritesheet_33
+    21300068: AstronautSpritesheet_34
+    21300070: AstronautSpritesheet_35
+    21300072: AstronautSpritesheet_36
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AstronautSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 877
+        width: 63
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 877
+        width: 65
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 877
+        width: 64
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 877
+        width: 65
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 736
+        width: 81
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 738
+        width: 77
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 736
+        width: 76
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 736
+        width: 83
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 736
+        width: 85
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 736
+        width: 85
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 736
+        width: 81
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 736
+        width: 72
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 735
+        width: 82
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 599
+        width: 75
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 595
+        width: 77
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 599
+        width: 77
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 600
+        width: 76
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 457
+        width: 82
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 457
+        width: 85
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 368
+        width: 30
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 316
+        width: 91
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 327
+        width: 120
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 309
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 328
+        width: 121
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 309
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 330
+        width: 120
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 359
+        width: 80
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 309
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 309
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 167
+        width: 62
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 168
+        width: 64
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 169
+        width: 79
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 204
+        width: 79
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 169
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 211
+        width: 30
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 29
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 29
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
