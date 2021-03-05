@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 	public float MoveSpeed;
@@ -23,13 +24,16 @@ public class PlayerController : MonoBehaviour {
 	public float speedIncreaseMilestone;
 	private float speedMilestoneCount;
 
-	private bool lost;
+	public bool lost;
 
 	public PlatformGenerator PG;
 	//zvukovi
 	public AudioSource JumpSound;
 	public AudioSource DeathSound;
 	public AudioSource BackgroundMusic;
+
+	[SerializeField]
+	Button gameOverBtn;
 
 	// Use this for initialization
 	void Start () {
@@ -39,6 +43,8 @@ public class PlayerController : MonoBehaviour {
 		jumptimecounter = JumpTime;
 		speedMilestoneCount = speedIncreaseMilestone;
 		lost = false;
+		Time.timeScale = 1;
+		BackgroundMusic.volume = PlayerPrefs.GetInt("SoundEnabled");
 	}
 	
 	// Update is called once per frame
@@ -49,7 +55,8 @@ public class PlayerController : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.Mouse0)){
 			if (Grounded) {
 				myrigidbody.velocity = new Vector2 (myrigidbody.velocity.x, Jump);
-				JumpSound.Play ();
+				JumpSound.volume = PlayerPrefs.GetInt("SoundEnabled");
+				JumpSound.Play();
 			}
 		}
 		if(Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Mouse0)){
@@ -79,16 +86,25 @@ public class PlayerController : MonoBehaviour {
 		myAnimator.SetFloat ("Speed", myrigidbody.velocity.x);
 		myAnimator.SetBool ("Grounded", Grounded);
 		if (lost) {
-			SceneManager.LoadScene ("GameOver");
+			//SceneManager.LoadScene ("GameOver");
+			gameOverBtn.gameObject.SetActive(true);
+			Time.timeScale = 0;
+
 		}
 	}
 
 	IEnumerator OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.layer == 15) {
 			BackgroundMusic.Stop ();
+			DeathSound.volume = PlayerPrefs.GetInt("SoundEnabled");
 			DeathSound.Play ();
 			yield return new WaitForSeconds (0.8f);
 			lost = true;
 		}
 	}
+
+	public void gameOverBtnClick()
+    {
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

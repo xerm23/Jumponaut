@@ -11,7 +11,8 @@ public class ExtraPoints : MonoBehaviour {
 	void Start () {
 		theScoreManager = FindObjectOfType<ScoreManager> ();
 		CoinSound = GameObject.Find ("CoinSound").GetComponent<AudioSource> ();
-		
+		CoinSound.volume = PlayerPrefs.GetInt("SoundEnabled");
+
 	}
 	
 	// Update is called once per frame
